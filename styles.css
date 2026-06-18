@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+select,button{
+    padding:20px;
+    margin:20px;
+    width: 80%
+}
+
+#weatherResult{
+    margin-top: 20px;
+    text-align: 20px;
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+
+    background-image: url('pexels-pixabay-417045.jpg');
+    background-size: cover;          /* fills screen */
+    background-position: center;     /* center image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;    /* image doesn't move */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
